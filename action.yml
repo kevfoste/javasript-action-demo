@@ -1,0 +1,13 @@
+name: 'Hello world '
+description: 'Hello world action'
+inputs:
+  who-to-greet:  
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # what time is it
+    description: 'The time we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
